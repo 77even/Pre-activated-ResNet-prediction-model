@@ -83,7 +83,7 @@ Labels are available as a 2 column (pickled) pandas dataframe that defines 1) th
 
 # File input/output/visualisation
 
-dirname='/content/drive/MyDrive/coursework1-data-2022-pma'
+dirname='/content/drive/MyDrive/data-2022-pma'
 
 example_im=np.load(os.path.join(dirname,'2D_projection_L_sub-0.npy'))
 
@@ -786,7 +786,7 @@ Another key point to make here is that the data is imbalanced - while not a clas
 - Train a model for 10 epochs. Observe the differences in performance compared to the previous task of gestational age at scan prediction
 """
 
-dirname='/content/drive/MyDrive/coursework1-data-2022-ga'
+dirname='/content/drive/MyDrive/data-2022-ga'
 
 example_im=np.load(os.path.join(dirname,'2D_projection_L_sub-0.npy'))
 
